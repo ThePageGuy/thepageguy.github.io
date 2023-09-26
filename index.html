@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Page Guy</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">The Page Guy</a>
+
+      <nav class="navbar">
+        <a href="#home" style="--i: 1" class="active">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#portfolio" style="--i: 3">Portfolio</a>
+        <a href="#contact" style="--i: 4">Contact</a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Wilfredo Gomez</h1>
+        <h3>And I'm <span>The Page Guy</span></h3>
+        <p>
+          I'm a Front End Web Developer also known as "The Page Guy" <br />
+          With Expertise in creating friendly and responsive websites.
+        </p>
+        <div class="home-sci">
+          <a href="https://github.com/ThePageGuy" style="--i: 7" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/wilfredo-gomez-99393728a/"
+            style="--i: 8"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://codepen.io/thepageguy" style="--i: 9" target="_blank"
+            ><i class="fa-brands fa-codepen"></i
+          ></a>
+          <a
+            href="https://hashnode.com/@ThePageGuy"
+            style="--i: 10"
+            target="_blank"
+            ><i class="fa-brands fa-hashnode"></i
+          ></a>
+        </div>
+        <a href="#portfolio" style="--i: 13" class="btn-box">My Works</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/about.jpeg" alt="Wilfredo Gomez" />
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Front End Web Developer</h4>
+        <p>
+          Highly motivated FrontEnd web developer. Proficient in JavaScript
+          Algorithms and skilled in HTML 5, CSS 3, JavaScript, Git, Spanish, and
+          English. Seeking a challenging position as a front-end web developer
+          to utilize my skills and contribute to the success of a dynamic
+          organization.
+        </p>
+        <a
+          href="pdf/Resume-Wilfredo-Gomez.pdf"
+          class="btn-box"
+          download="Resume"
+          >Download Resume</a
+        >
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div id="project">
+        <div class="main-text">
+          <h2>Latest <span>Project</span></h2>
+
+          <div class="portfolio-content">
+            <div class="row">
+              <img src="img/documentation.jpeg" alt="project-1" />
+              <div class="layer">
+                <h5>Documentation Page</h5>
+                <p>
+                  A Responsive Documentation page for the programming language
+                  JavaScript.
+                </p>
+                <a
+                  href="https://thepageguy.github.io/documentation_page/"
+                  target="_blank"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="img/landing_page.jpeg" alt="project-2" />
+              <div class="layer">
+                <h5>Original Trombones</h5>
+                <p>
+                  A Small Landing Page for a Trombone Building Company called
+                  "Original Trombones"
+                </p>
+                <a
+                  href="https://thepageguy.github.io/landing_page/"
+                  target="_blank"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="img/tribute_page.jpeg" alt="project-3" />
+              <div class="layer">
+                <h5>Tribute Page</h5>
+                <p>
+                  A Tribute page for Dr. Norman Borlaug The man who saved a
+                  billion lives
+                </p>
+                <a
+                  href="https://thepageguy.github.io/tribute_page/"
+                  target="_blank"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's work Together</h4>
+        <p>
+          If everyone is moving foward together, then success takes care of
+          itself.
+        </p>
+        <div class="contact-list">
+          <li><i class="fa-solid fa-envelope"></i> thepageguy@mailfence.com</li>
+          <li><i class="fa-solid fa-phone"></i> (509) 386-4707</li>
+        </div>
+        <div class="contact-icons">
+          <a href="https://github.com/ThePageGuy" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/wilfredo-gomez-99393728a/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://hashnode.com/@ThePageGuy" target="_blank"
+            ><i class="fa-brands fa-hashnode"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="#">
+          <input
+            type="text"
+            placeholder="Enter Your Name"
+            required
+            id="sender"
+          />
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            required
+            id="reply"
+          />
+
+          <input type="text" placeholder="Enter Your Subject" id="subject" />
+          <textarea
+            cols="40"
+            rows="10"
+            placeholder="Enter Your Message"
+            id="message"
+          ></textarea>
+          <input
+            type="submit"
+            value="submit"
+            class="send"
+            onclick="sendMail()"
+          />
+        </form>
+      </div>
+    </section>
+
+    <div class="last-text">
+      <p>Developed with Passion by The Page Guy &copy; 2023</p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
